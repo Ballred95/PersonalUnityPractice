@@ -8,6 +8,7 @@ public class MY : MonoBehaviour
     void Start()
     {
         ShowMainMenu();
+        CookCurry("lamb");
     }
 
     void ShowMainMenu ()
@@ -22,6 +23,11 @@ public class MY : MonoBehaviour
         Terminal.WriteLine("OORRRR THIS?");
 
     }
+    void CookCurry(string meatToUse) {
+        
+        print("I am adding the " + meatToUse);
+    }
+
     // Update is called once per frame
     void Update()
     {
